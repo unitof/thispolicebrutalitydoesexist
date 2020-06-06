@@ -2,9 +2,8 @@
   "name": "police-brutality-roulette",
   "version": "0.0.1",
   "description": "New police brutality video every time!",
-  "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/unitof/thispolicebrutalitydoesexist/issues"
   },
-  "homepage": "https://github.com/unitof/thispolicebrutalitydoesexist#readme"
+  "homepage": "https://github.com/unitof/thispolicebrutalitydoesexist#readme",
+  "dependencies": {
+    "now": "^19.0.1",
+    "readdir": "^1.0.2",
+    "write-json-file": "^4.3.0"
+  }
 }
